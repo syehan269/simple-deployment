@@ -61,7 +61,12 @@ untuk lebih penggunaan command lebih lanjut, anda dapat melihat cheatsheet berik
 
   `php artisan key:generate`
 
+* terakhir, anda perlu melakukan konfigurasi file log yang ada di folder /public/logs/ untuk memiliki akses write, gunakan command dibawah ini untuk merubah hak aksesnya.
+  `sudo chmod -R o+wx`
+
 untuk melihat daftar flag yang tersedia untuk `install` anda dapat melihat pada dokumentasi composer: [Composer CLI Documentation](https://getcomposer.org/doc/03-cli.md#install-i)
+
+untuk panduan tentang command untuk mengatur hak akses pada linux, anda dapat melihat artikel berikut: [File Permission in Linux](https://www.guru99.com/file-permissions.html)
 
 ## Caching Assets Project
 
